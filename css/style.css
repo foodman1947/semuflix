@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images4.alphacoders.com/573/thumb-1920-57394.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.tamanho{
+    font-size: 4vh;
+    background-color: rgba(255, 0, 0, 0.63);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 19px 5px #000000; 
+    box-shadow: 2px 3px 19px 5px #000000;
+}
+.sombra{
+    border-bottom: 8px solid rgba(3, 17, 90,0.5);
+}
+
+.pointer{
+    cursor: pointer;
+}
+.filmeflex{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+div.left{
+    width: 50%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+div.left > div.logo{
+    width:12vw;
+    height: 12vh;
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0mm 2mm rgb(210, 0, 0));
+    
+
+
+}
+
+
+div.right{
+    height: 12vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+div.right ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 40px;
+    -webkit-box-shadow: 2px 3px 19px -2px #000000; 
+    box-shadow: 2px 3px 19px -2px #000000;
+
+
+}
+
+div.conteiner{
+    box-shadow: 10px 10px 25px 20px #000000;
+    margin-top:5vh;
+    width: 100%;
+    height: 35vh;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+}
+div.conteiner > div.fil{
+    display: inline-block;
+    margin-right: -4px;
+    width: 33.3vw;
+    height:inherit;
+    border: 2px solid black;
+    box-shadow: 10px 0px 20px 2px #000000;
+
+    
+}
+
+div.right ul li:hover{
+    background-color: rgba(255, 0, 0, 0.829);
+}
+div.right ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+section.slider > button.right{
+    z-index: 4;
+    font-size: 32px;
+    position: absolute;
+    top:17vh;
+    right: 0px;
+    width: 45px;
+    height: 35vh;
+    display: inline-block;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    filter:drop-shadow(100%);
+    border-radius: 7px;
+    transition: 0.2s;
+}
+section.slider > button.right:hover{
+    box-shadow: inset -15px 0px 10px -5px rgba(0, 0, 0, 0.671);
+
+
+}
+section.slider > button.right:focus{
+    outline: none;
+}
+
+
+section.slider > button.right2{
+    z-index: 4;
+    font-size: 32px;
+    position: absolute;
+    top:57vh;
+    right: 0px;
+    width: 45px;
+    height: 35vh;
+    display: inline-block;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    filter:drop-shadow(100%);
+    border-radius: 7px;
+    transition: 0.2s;
+}
+section.slider > button.right2:hover{
+    box-shadow: inset -15px 0px 10px -5px rgba(0, 0, 0, 0.671);
+
+
+}
+section.slider > button.right2:focus{
+    outline: none;
+}
+
+
+
+
+
+section.slider > button.left{
+    z-index: 5;
+    font-size: 32px;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    position: absolute;
+    left: 0px;
+    width: 45px;
+    height: 35vh;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+section.slider > button.left:hover{
+    box-shadow: inset 15px 0px 10px -5px rgba(0, 0, 0, 0.671);
+
+
+
+}
+section.slider > button.left:focus{
+    outline: none;
+}
+
+
