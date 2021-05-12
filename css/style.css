@@ -5,9 +5,10 @@
 }
 
 body{
-    background-image: url('https://images4.alphacoders.com/573/thumb-1920-57394.jpg');
+    background-image: url('https://images5.alphacoders.com/523/thumb-1920-523395.jpg');
     background-position: center;
     background-size: cover;
+    background-blend-mode:saturation;
 }
 
 .tamanho{
@@ -34,6 +35,10 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: #333;
+    border-bottom: 10px solid rgb(32, 32, 32);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
     
 
 }
@@ -52,7 +57,7 @@ div.left > div.logo{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    filter: drop-shadow(0 0mm 2mm rgb(210, 0, 0));
+    filter: drop-shadow(0 0mm 1mm rgb(210, 0, 0));
     
 
 
@@ -78,8 +83,7 @@ div.right ul li{
     display: inline-block;
     padding: 0px 20px;
     border-radius: 40px;
-    -webkit-box-shadow: 2px 3px 19px -2px #000000; 
-    box-shadow: 2px 3px 19px -2px #000000;
+
 
 
 }
@@ -127,7 +131,7 @@ section.slider > button.right{
     z-index: 4;
     font-size: 32px;
     position: absolute;
-    top:17vh;
+    top:18vh;
     right: 0px;
     width: 45px;
     height: 35vh;
@@ -139,7 +143,7 @@ section.slider > button.right{
     transition: 0.2s;
 }
 section.slider > button.right:hover{
-    box-shadow: inset -15px 0px 10px -5px rgba(0, 0, 0, 0.671);
+    box-shadow: inset -25px 0px 10px -5px rgba(0, 0, 0, 0.671);
 
 
 }
@@ -152,7 +156,7 @@ section.slider > button.right2{
     z-index: 4;
     font-size: 32px;
     position: absolute;
-    top:57vh;
+    top:58vh;
     right: 0px;
     width: 45px;
     height: 35vh;
@@ -190,7 +194,7 @@ section.slider > button.left{
     transition: 0.2s;
 }
 section.slider > button.left:hover{
-    box-shadow: inset 15px 0px 10px -5px rgba(0, 0, 0, 0.671);
+    box-shadow: inset 25px 0px 10px -5px rgba(0, 0, 0, 0.671);
 
 
 
